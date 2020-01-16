@@ -58,22 +58,27 @@ img{max-width: 100%;
 .clearfix{clear:both;}
 
 .bar{background: #f6f6f6;}
-.bar ul   {float:right;}
-.bar ul li{float: left;}
-.bar a    {text-decoration:none;
-		  line-height:50px;
-		  padding: 0 0 0 10px;}
-.bar span{padding: 10px;}
-.fb      {color: #4460a0;
-	      padding: 10px;
-	      border-right: 2px solid #cccccc;}
-.twitter {color: #00aaec;
-          padding: 10px;}
+.bar ul   {float:right; 
+	       font-size: 14px;
+	       padding: 20px 10px 20px 10px;}
+.bar li   {float: left;
+          }
+.bar a    {text-decoration:none;}
+.bar span {padding: 5px;}
+.line{
+	       border-right: 2px solid #cccccc;
+	       padding: 10px;
+}
+.fb       {color: #4460a0;
+           padding-top: 10px;}
+.twitter  {color: #00aaec;
+	       padding-top: 10px;
+           padding-left: 20px;}
 
 
-.header{padding:10px 0 10px 0 ;
-        margin: 0 5px 0 10px;}
-.header img{margin:10px 0 0 0 ;}
+.header{text-align: center;
+        margin: 10px;}
+.header img{margin:10px 20px 0 20px ;}
 .header ul {float:right;}
 .header ul li{float:left;
 			  padding: 10px ;}
@@ -93,20 +98,18 @@ img{max-width: 100%;
 	  background-image: url(../images/logo.png);
       width: 190px;
       height: 36px;
-      margin: 10px 0 20px 0px;
+      margin: 10px 0 10px 0px;
       display: block;
       text-indent: 100%;
       overflow: hidden; 
       white-space: nowrap;}
-.header ul li a:hover{
-	border-bottom: 2px solid #00cc99;
-}
+.header ul li a:hover{border-bottom: 2px solid #00cc99;}
 
-.menu p{text-align: center;}
 
-.menu img{  display: block;
+.menu p    {text-align: center;}
+
+.menu img  {display: block;
 	        max-width: 100%;
-			margin:30px 0 30px 0 ; 
 			cursor: pointer;  
 }
 
@@ -267,5 +270,6 @@ table{margin: auto;}
 
 .footer  a{ font-size: 18px;
 	        color:palevioletred;
-            text-decoration: none;}
+			text-decoration: none;
+		    line-height: 30px;}
 
