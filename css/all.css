@@ -46,34 +46,38 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 .wrap{margin: 0 auto;
-      width: 1000px;}
+      width: 1000px;
+	  font-family: 'Noto Sans TC', sans-serif;
+	  }
+
+.clearfix{clear:both;}
 
 .bar{background: #f6f6f6;}
-.bar ul li{float:right;}
+.bar ul   {float:right;}
+.bar ul li{float: left;}
+.bar a    {text-decoration:none;
+		  line-height:50px;
+		  padding: 0 0 0 10px;}
+.bar span{padding: 10px;}
+.fb      {color: #4460a0;
+	      padding: 10px;
+	      border-right: 2px solid #cccccc;}
+.twitter {color: #00aaec;
+          padding: 10px;}
 
-.bar ul li a{padding-left: 10px;
-	     text-decoration:none;
-	     line-height:50px;
-	     padding-right: 5px;
-         }
-.fb{color: #4460a0;
-	border-right: 2px solid #cccccc;}
-.twitter {color: #00aaec;}
 
-.header{margin:30px 0 30px 0 ;}
-
-.header img{margin:20px 10px 30px 0 ;}
-
-.header ul {float:right;
-	          }
-.header ul li{float:left;}
-
+.header{padding:10px 0 10px 0 ;
+        margin: 0 5px 0 10px;}
+.header img{margin:10px 0 0 0 ;}
+.header ul {float:right;}
+.header ul li{float:left;
+			  padding: 10px ;}
 .header ul li a{
 	       display: block;
 	       color: #44dab4;
-	       width:70px;
-	       font-size: 20px,
+	       font-size: 20px;
 	       line-height: 10px;
 	       text-align: center;
 	       line-height: 50px;
@@ -81,67 +85,72 @@ table {
 	       white-space: nowrap;
 	       text-decoration: none;
 	       }
-
 .header h1 a{
 	  float: left;
 	  background-image: url(../images/logo.png);
-      width: 195px;
+      width: 190px;
       height: 36px;
-      margin: 10px 0 20px 0;
+      margin: 10px 0 20px 0px;
       display: block;
       text-indent: 100%;
       overflow: hidden; 
       white-space: nowrap;}
-
 .header ul li a:hover{
 	border-bottom: 2px solid #00cc99;
 }
 
-
-.clearfix:after{
-	content: "";
-	display: block;
-	clear:both;}
-
+.menu p{text-align: center;}
 
 .menu img{  display: block;
-	        width: 1002px;
+	        width: 1000px;
             height:346px;
-            margin:30px 0 30px 0 ;   
+			margin:30px 0 30px 0 ; 
+			cursor: pointer;  
 }
 
 
 
-.lesson ul{float: ;left;
-           margin:20px 5px 40px 5px ;
-           }
+.lesson ul{float: left;
+           margin:20px 5px 40px 5px ;}
 
 .lesson li{float: left;
 	       width: 280px;
-	       
 	       overflow: 100%;
            padding: 10px 20px 10px 20px;
 	       margin:10px  5px 10px 5px ;
 	       box-shadow:  0 4px 5px gray;
-	       
             }
-.lesson h2{text-align: 36px;}
-.lesson span{text-align: left;}
 
-.lesson img{width:100%;}
+.lesson span{font-family: 'Times New Roman', Times, serif;
+	         text-align: left;
+             line-height: normal;}
+.lesson h1{  font-family:'Times New Roman', Times, serif;
+			 font-size: 20px;
+	         font-weight: bold;
+	         text-align: center;
+			 margin: 0 auto;
+			 padding: 10px;}
+.lesson p{   font-family: 'Times New Roman', Times, serif;
+	         text-align: left;
+	         line-height: normal;}
+.lesson img{ width:100%;
+             cursor: pointer;}
+.lesson style{display: inline;}
 
-.main h1{ font-family: ;
-	      font-size:30px;
-	      font-weight: bold;
-	      text-align:center;
-	      margin:30px 20px 20px 20px;
+
+table{margin: auto;}
+h2       {  font-family:Georgia, 'Times New Roman', Times, serif;
+	        font-size:30px;
+	        font-weight: bold;
+	        text-align:center;
+	        margin:30px 20px 20px 20px;
 	      }
-.price{margin:30px auto; 
-	   padding:30px 30px 30px 30px;
-       font-size: 20px;
-       text-align:center;
-       border-collapse:collapse;
-	   border-spacing: 0; 
+.price{     margin:30px auto; 
+	        padding:30px 30px 30px 30px;
+            font-size: 20px;
+            text-align:center;
+            border-collapse:collapse;
+	        border-spacing: 0; 
 }
 .price tr{font-size:20px;
 	      font-weight: bold;
@@ -157,71 +166,87 @@ table {
           border-bottom:1px solid black;
           padding: 20px 30px 20px 30px;
           }
-
 .green{color:#00DDAA;}
 
 
 
-.QA   {margin: 20px;
-	   background: linear-gradient(#00644b,#009771);
+.QA   {     width: 900px;
+	        margin: 0 auto;
+	        background: linear-gradient(#00644b,#009771);
 	   }
-
-
-.QA h1{font-size: 30px;
-	   line-height: 50px;
-	   font-weight: bold;
-	   color: white;
-	   text-align: center;
-	   padding:10px;
-
+.QA p{      font-size: 28x;
+	        line-height: 30px;
+	        font-weight: bold;
+	        color: white;
+	        text-align: center;
+	        padding:10px;
 }
 
-textarea{
-	       display: block;
-	       float: left;
-           margin:10px 20px 10px 20px ;}
-
-.QAform {float:left ;
-
-	     margin: 20px;
-        }
-
-.QA label{color: white;
-              display: block;
-              padding:10px 0 10px 0;}
-
-.QA input{width: 450px;
-              border-radius: 5px;
-              border:2px;
-              padding:3px ;}
-
-.QA .button{ width: 40px;
-	        height: 30px;
-	        color: white;
-	     border-radius: 3px;
-	     border:1px solid white;
-	     float:right;
-	     background: #00cc99;
-	     margin:10px 10px 10px 10px;
-	     padding:5px 5px 5px 5px ;}
+.QA textarea{    
+		     float: left;
+		     width:400px;
+			 height: 200px;
+			margin:20px 10px 20px 20px;
+         }
+.data        {
+			  float: right;
+			  padding-right:20px;
+}
+.datacontent{
+			  text-align: left;
+			  border-radius: 5px;
+			  border:2px;
+			  padding:5px 10px 0 0px;
+			 
+}
 
 
-.footer{   font-family: ;
-	       font-size: 20px,
-	       line-height: 10px;
+.datacontent label{color: #f7f7f7;
+				   display: block;
+				   font-size: 20px;
+				   margin: 0 0 10px 20px ;
+}
+.datacontent input{    
+			  color: white;
+			  font-size: 12px;
+			  border-radius: 5px;
+			  text-indent: 0;
+			  margin: 5px 0px 5px 5px;
+			  padding:0px 280px 5px 0px ;
+			  cursor: auto;}
+
+
+.button input{ float: right;
+	        color: #f6f6f6;
+	        border-radius: 3px;
+	        order:1px solid white;
+			background: #00cc99;
+			margin: 20px 10px 20px 0;
+		    padding: 5px  10px  5px  10px  ;
+		   }
+.button input:hover{
+		 background-color: #f7f7f7;
+		 color: aqua;
+		 cursor: pointer;
+}		   
+
+.footer{   font-family: 'Times New Roman', Times, serif;
+	       font-size: 20px;
 	       text-align: center;
 	       line-height: 20px;
 	       overflow: hidden;
 	       white-space: nowrap;
 	       text-decoration: none;
-	       margin:20px 0 20px 0 ;
+	       margin:50px 0 60px 0 ;
 }
 
 .footer img {float:left; 
-             margin:10px 0 20px 30px;}
-.footer ul  {float: right;}
-.footer ul li{float: left;
-              margin:10px 30px 0 0 ;}
-.footer    a{color:pink;
-             text-decoration: none;}
+             margin:10px 0 20px 40px;}
+.footer ul  {float: right; 
+	         margin:10px 40px 0 0 ;
+}
+
+.footer  a{ font-size: 18px;
+	        color:palevioletred;
+            text-decoration: none;}
 
