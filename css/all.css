@@ -46,10 +46,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+img{max-width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
 
-.wrap{margin: 0 auto;
-      width: 1000px;
-	  font-family: 'Noto Sans TC', sans-serif;
+.wrap{max-width:1024px;
+      margin: 0 auto;
 	  }
 
 .clearfix{clear:both;}
@@ -102,44 +105,56 @@ table {
 .menu p{text-align: center;}
 
 .menu img{  display: block;
-	        width: 1000px;
-            height:346px;
+	        max-width: 100%;
 			margin:30px 0 30px 0 ; 
 			cursor: pointer;  
 }
 
 
 
-.lesson ul{float: left;
-           margin:20px 5px 40px 5px ;}
+.lesson ul{display: flex;
+	       flex-direction: row;
+	      
+           margin:20px 5px 20px 5px ;}
 
-.lesson li{float: left;
-	       width: 280px;
-	       overflow: 100%;
-           padding: 10px 20px 10px 20px;
-	       margin:10px  5px 10px 5px ;
-	       box-shadow:  0 4px 5px gray;
+.lesson li{
+	       
+		   width: 30%;
+	       margin:1.5%;
+		   box-shadow:0 4px 5px gray;
+		   padding:20px 10px  20px 10px ;
             }
 
-.lesson span{font-family: 'Times New Roman', Times, serif;
-	         text-align: left;
-             line-height: normal;}
 .lesson h1{  font-family:'Times New Roman', Times, serif;
 			 font-size: 20px;
 	         font-weight: bold;
 	         text-align: center;
-			 margin: 0 auto;
-			 padding: 10px;}
+			 padding: 20px;}
+
+.lesson span{font-family: 'Times New Roman', Times, serif;
+	         font-size: 18px;
+			 text-align: left;
+			 line-height:26px;
+             padding: 10px;
+}
 .lesson p{   font-family: 'Times New Roman', Times, serif;
-	         text-align: left;
-	         line-height: normal;}
-.lesson img{ width:100%;
+			 text-align: left;
+			 font-size: 18px;
+			 text-indent: 20px;
+			 line-height: 25px;
+		
+			  }
+.lessonimg{  display:flex;
+	         align-items:center;
+	         text-align: center;
+	         max-width:90%;
+			 height: 100px;
              cursor: pointer;}
-.lesson style{display: inline;}
+
 
 
 table{margin: auto;}
-h2       {  font-family:Georgia, 'Times New Roman', Times, serif;
+.main h2       {  font-family:Georgia, 'Times New Roman', Times, serif;
 	        font-size:30px;
 	        font-weight: bold;
 	        text-align:center;
@@ -170,7 +185,7 @@ h2       {  font-family:Georgia, 'Times New Roman', Times, serif;
 
 
 
-.QA   {     width: 900px;
+.QA   {     max-width: 90%;
 	        margin: 0 auto;
 	        background: linear-gradient(#00644b,#009771);
 	   }
@@ -186,7 +201,7 @@ h2       {  font-family:Georgia, 'Times New Roman', Times, serif;
 		     float: left;
 		     width:400px;
 			 height: 200px;
-			margin:20px 10px 20px 20px;
+			 margin:20px 10px 20px 20px;
          }
 .data        {
 			  float: right;
@@ -230,20 +245,24 @@ h2       {  font-family:Georgia, 'Times New Roman', Times, serif;
 		 cursor: pointer;
 }		   
 
-.footer{   font-family: 'Times New Roman', Times, serif;
+.footer{   max-width: 90%;
+	       font-family: 'Times New Roman', Times, serif;
 	       font-size: 20px;
 	       text-align: center;
 	       line-height: 20px;
 	       overflow: hidden;
 	       white-space: nowrap;
 	       text-decoration: none;
-	       margin:50px 0 60px 0 ;
+	       margin:30px 0 60px 0 ;
 }
 
 .footer img {float:left; 
-             margin:10px 0 20px 40px;}
-.footer ul  {float: right; 
-	         margin:10px 40px 0 0 ;
+             margin: 0px 30px 0 50px;}
+.footer ul  {float: right; }
+.footer li  {float: left;
+	         line-height: 30x;
+             font-size: 18px;
+	         color:black;
 }
 
 .footer  a{ font-size: 18px;
