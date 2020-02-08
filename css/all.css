@@ -1,0 +1,271 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img{max-width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.wrap{max-width:1024px;
+      margin: 0 auto;
+	  }
+
+.clearfix{clear:both;}
+
+.bar{background: #f6f6f6;}
+.bar ul   {float:right;}
+.bar ul li{float: left;}
+.bar a    {text-decoration:none;
+		  line-height:50px;
+		  padding: 0 0 0 10px;}
+.bar span{padding: 10px;}
+.fb      {color: #4460a0;
+	      padding: 10px;
+	      border-right: 2px solid #cccccc;}
+.twitter {color: #00aaec;
+          padding: 10px;}
+
+
+.header{padding:10px 0 10px 0 ;
+        margin: 0 5px 0 10px;}
+.header img{margin:10px 0 0 0 ;}
+.header ul {float:right;}
+.header ul li{float:left;
+			  padding: 10px ;}
+.header ul li a{
+	       display: block;
+	       color: #44dab4;
+	       font-size: 20px;
+	       line-height: 10px;
+	       text-align: center;
+	       line-height: 50px;
+	       overflow: hidden;
+	       white-space: nowrap;
+	       text-decoration: none;
+	       }
+.header h1 a{
+	  float: left;
+	  background-image: url(../images/logo.png);
+      width: 190px;
+      height: 36px;
+      margin: 10px 0 20px 0px;
+      display: block;
+      text-indent: 100%;
+      overflow: hidden; 
+      white-space: nowrap;}
+.header ul li a:hover{
+	border-bottom: 2px solid #00cc99;
+}
+
+.menu p{text-align: center;}
+
+.menu img{  display: block;
+	        max-width: 100%;
+			margin:30px 0 30px 0 ; 
+			cursor: pointer;  
+}
+
+
+
+.lesson ul{display: flex;
+	       flex-direction: row;
+	      
+           margin:20px 5px 20px 5px ;}
+
+.lesson li{
+	       
+		   width: 30%;
+	       margin:1.5%;
+		   box-shadow:0 4px 5px gray;
+		   padding:20px 10px  20px 10px ;
+            }
+
+.lesson h1{  font-family:'Times New Roman', Times, serif;
+			 font-size: 20px;
+	         font-weight: bold;
+	         text-align: center;
+			 padding: 20px;}
+
+.lesson span{font-family: 'Times New Roman', Times, serif;
+	         font-size: 18px;
+			 text-align: left;
+			 line-height:26px;
+             padding: 10px;
+}
+.lesson p{   font-family: 'Times New Roman', Times, serif;
+			 text-align: left;
+			 font-size: 18px;
+			 text-indent: 20px;
+			 line-height: 25px;
+		
+			  }
+.lessonimg{  display:flex;
+	         align-items:center;
+	         text-align: center;
+	         max-width:90%;
+			 height: 100px;
+             cursor: pointer;}
+
+
+
+table{margin: auto;}
+.main h2       {  font-family:Georgia, 'Times New Roman', Times, serif;
+	        font-size:30px;
+	        font-weight: bold;
+	        text-align:center;
+	        margin:30px 20px 20px 20px;
+	      }
+.price{     margin:30px auto; 
+	        padding:30px 30px 30px 30px;
+            font-size: 20px;
+            text-align:center;
+            border-collapse:collapse;
+	        border-spacing: 0; 
+}
+.price tr{font-size:20px;
+	      font-weight: bold;
+	      text-align:center;
+	      border-top:1px solid black;
+          border-bottom:1px solid black;
+          padding: 20px 50px 20px 50px;
+          margin:10px 50px 0 50px ;
+          }
+.price th{background: #f7f7f7;}
+
+.price th,.price td{border-top:1px solid black;
+          border-bottom:1px solid black;
+          padding: 20px 30px 20px 30px;
+          }
+.green{color:#00DDAA;}
+
+
+
+.QA   {     max-width: 90%;
+	        margin: 0 auto;
+	        background: linear-gradient(#00644b,#009771);
+	   }
+.QA p{      font-size: 28x;
+	        line-height: 30px;
+	        font-weight: bold;
+	        color: white;
+	        text-align: center;
+	        padding:10px;
+}
+
+.QA textarea{    
+		     float: left;
+		     width:400px;
+			 height: 200px;
+			 margin:20px 10px 20px 20px;
+         }
+.data        {
+			  float: right;
+			  padding-right:20px;
+}
+.datacontent{
+			  text-align: left;
+			  border-radius: 5px;
+			  border:2px;
+			  padding:5px 10px 0 0px;
+			 
+}
+
+
+.datacontent label{color: #f7f7f7;
+				   display: block;
+				   font-size: 20px;
+				   margin: 0 0 10px 20px ;
+}
+.datacontent input{    
+			  color: white;
+			  font-size: 12px;
+			  border-radius: 5px;
+			  text-indent: 0;
+			  margin: 5px 0px 5px 5px;
+			  padding:0px 280px 5px 0px ;
+			  cursor: auto;}
+
+
+.button input{ float: right;
+	        color: #f6f6f6;
+	        border-radius: 3px;
+	        order:1px solid white;
+			background: #00cc99;
+			margin: 20px 10px 20px 0;
+		    padding: 5px  10px  5px  10px  ;
+		   }
+.button input:hover{
+		 background-color: #f7f7f7;
+		 color: aqua;
+		 cursor: pointer;
+}		   
+
+.footer{   max-width: 90%;
+	       font-family: 'Times New Roman', Times, serif;
+	       font-size: 20px;
+	       text-align: center;
+	       line-height: 20px;
+	       overflow: hidden;
+	       white-space: nowrap;
+	       text-decoration: none;
+	       margin:30px 0 60px 0 ;
+}
+
+.footer img {float:left; 
+             margin: 0px 30px 0 50px;}
+.footer ul  {float: right; }
+.footer li  {float: left;
+	         line-height: 30x;
+             font-size: 18px;
+	         color:black;
+}
+
+.footer  a{ font-size: 18px;
+	        color:palevioletred;
+            text-decoration: none;}
+
